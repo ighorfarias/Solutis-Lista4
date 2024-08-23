@@ -24,19 +24,19 @@ public class NewAnimalAB {
 
         @Override
         public void comer() {
-            quantidadeComida += 10; // O cachorro come 10 unidades de comida
+            quantidadeComida += 10;
             System.out.println("O cachorro comeu. Quantidade de comida ingerida: " + quantidadeComida);
         }
 
         @Override
         public void moverse() {
-            caminhoPercorrido += 5; // O cachorro se move 5 unidades de distância
+            caminhoPercorrido += 5;
             System.out.println("O cachorro se moveu. Caminho percorrido: " + caminhoPercorrido);
         }
 
         @Override
         public void dormir() {
-            horasDormidas += 8; // O cachorro dorme por 8 horas
+            horasDormidas += 8;
             System.out.println("O cachorro dormiu. Horas dormidas: " + horasDormidas);
         }
     }
@@ -45,19 +45,19 @@ public class NewAnimalAB {
 
         @Override
         public void comer() {
-            quantidadeComida += 5; // O gato come 5 unidades de comida
+            quantidadeComida += 5;
             System.out.println("O gato comeu. Quantidade de comida ingerida: " + quantidadeComida);
         }
 
         @Override
         public void moverse() {
-            caminhoPercorrido += 3; // O gato se move 3 unidades de distância
+            caminhoPercorrido += 3;
             System.out.println("O gato se moveu. Caminho percorrido: " + caminhoPercorrido);
         }
 
         @Override
         public void dormir() {
-            horasDormidas += 12; // O gato dorme por 12 horas
+            horasDormidas += 12;
             System.out.println("O gato dormiu. Horas dormidas: " + horasDormidas);
         }
     }
@@ -66,19 +66,19 @@ public class NewAnimalAB {
 
         @Override
         public void comer() {
-            quantidadeComida += 50; // O elefante come 50 unidades de comida
+            quantidadeComida += 50;
             System.out.println("O elefante comeu. Quantidade de comida ingerida: " + quantidadeComida);
         }
 
         @Override
         public void moverse() {
-            caminhoPercorrido += 2; // O elefante se move 2 unidades de distância
+            caminhoPercorrido += 2;
             System.out.println("O elefante se moveu. Caminho percorrido: " + caminhoPercorrido);
         }
 
         @Override
         public void dormir() {
-            horasDormidas += 6; // O elefante dorme por 6 horas
+            horasDormidas += 6;
             System.out.println("O elefante dormiu. Horas dormidas: " + horasDormidas);
         }
     }
@@ -87,19 +87,19 @@ public class NewAnimalAB {
 
         @Override
         public void comer() {
-            quantidadeComida += 30; // O leão come 30 unidades de comida
+            quantidadeComida += 30;
             System.out.println("O leão comeu. Quantidade de comida ingerida: " + quantidadeComida);
         }
 
         @Override
         public void moverse() {
-            caminhoPercorrido += 7; // O leão se move 7 unidades de distância
+            caminhoPercorrido += 7;
             System.out.println("O leão se moveu. Caminho percorrido: " + caminhoPercorrido);
         }
 
         @Override
         public void dormir() {
-            horasDormidas += 10; // O leão dorme por 10 horas
+            horasDormidas += 10;
             System.out.println("O leão dormiu. Horas dormidas: " + horasDormidas);
         }
     }
